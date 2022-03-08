@@ -111,8 +111,6 @@ const logger = require('./utils/logger')
 
 const server = http.createServer(app)
 
-logger.info('check')
-
 server.listen(config.PORT, () => {
   logger.info(`Server running on port ${config.PORT}`)
 })
